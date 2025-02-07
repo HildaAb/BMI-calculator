@@ -7,6 +7,30 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <div class="container">
+      <h1 class="heading">Body Mass Index (BMI) Calculator</h1>
+      Your height (cm):
+      <input
+        type="number"
+        class="input"
+        id="height"
+        value="180"
+        placeholder="Enter your height in cm"
+      />
+    </div>
+    Your weight (kg):
+    <input
+      type="number"
+      class="input"
+      id="weight"
+      value="80"
+      placeholder="Enter your weight in kg"
+    />
+    <button class="btn" id="btn">Calculate BMI</button>
+    <input disabled type="number" class="input" id="bmi-result" />
+    <h4 class="info-text">
+      Weight condition:<span id="weight-conditon"></span>
+    </h4>
     <script src="app.js"></script>
   </body>
 </html>
