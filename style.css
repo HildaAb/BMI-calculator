@@ -2,8 +2,8 @@ body {
   margin: 0;
   background: linear-gradient(
     to left bottom,
-    rgb(144, 110, 181),
-    rgb(241, 243, 189)
+    rgb(232, 232, 242),
+    rgb(228, 228, 226)
   );
   display: flex;
   min-height: 100vh;
